@@ -63,7 +63,7 @@ namespace Septiembre4
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
-
+            barra.Mover(e.X);
         }
     }
 }

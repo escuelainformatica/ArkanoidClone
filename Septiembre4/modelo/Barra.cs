@@ -42,6 +42,11 @@ namespace Septiembre4.modelo
             }
             ActualizarPosicion();
         }
+        public void Mover(int x)
+        {
+            this.X=x;
+            ActualizarPosicion();
+        }
         public void ActualizarPosicion()
         {
             imagen.Location = new System.Drawing.Point(X, 6*64);
